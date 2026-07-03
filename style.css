@@ -1,0 +1,58 @@
+body {
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+}
+
+.app {
+  max-width: 600px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#songsContainer {
+  margin-top: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.song-card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.song-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.song-info {
+  flex: 1;
+}
